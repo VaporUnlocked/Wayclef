@@ -1,0 +1,7 @@
+/build/
+/logs/
+/all .jar's go here/
+/.projectkeeper*
+/PROJECT_CONTEXT.md
+/PROJECT_NOTES.md
+__pycache__/

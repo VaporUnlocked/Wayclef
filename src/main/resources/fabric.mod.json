@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "wayclef",
+  "version": "${version}",
+  "name": "Wayclef",
+  "description": "Client-side Minecraft navigation, construction, and automation with optional Meteor integration.",
+  "authors": ["Null"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.soprano.SopranoClient"],
+    "meteor": ["dev.soprano.SopranoAddon"]
+  },
+  "mixins": ["wayclef.mixins.json"],
+  "depends": {
+    "java": ">=25",
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3"
+  },
+  "suggests": { "meteor-client": "26.3-17" }
+}

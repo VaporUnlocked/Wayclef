@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "package": "dev.soprano.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "KeyboardInputMixin",
+    "MeteorFreecamMixin",
+    "MeteorModulesMixin",
+    "MobBucketItemAccessor",
+    "FishingHookAccessor",
+    "LocalPlayerSprintMixin",
+    "ClientRuntimeMixin",
+    "ClientKeyboardMixin",
+    "ClientMouseMixin",
+    "ClientOutboundMixin",
+    "ClientChatMixin",
+    "ClientBlockUseMixin",
+    "ClientStorageContentsMixin",
+    "FurnaceDataAccessor",
+    "FurnaceBlockDataAccessor",
+    "ClientGuiMixin",
+    "MinecraftAttackMixin",
+    "ClientLevelBlockAckMixin",
+    "GuiRendererMixin",
+    "FontProviderAccessor",
+    "GuiGraphicsExtractorAccessor",
+    "PictureInPictureRendererAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
