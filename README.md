@@ -6,8 +6,6 @@ Wayclef is a client-side navigation, construction, and automation mod for Minecr
 
 Install `wayclef-0.9.0-beta.7-mc26.3.jar` in the instance's `mods` directory. If you're upgrading from Soprano, replace its JAR with Wayclef in the same instance. This build uses Minecraft 26.3, Fabric Loader 0.19.5 or newer, and Java 25 or newer. Meteor integration targets Meteor 26.3-17. Wayclef runs on the player's client and uses normal multiplayer interactions.
 
-Wayclef reads your existing preferences, waypoints, trips, and other saved data from the instance's `soprano` folder. Existing `.sopplan` files still open in the planner. Meteor also loads settings saved under the old Soprano module name.
-
 Press the grave/tilde key (below Esc on a US keyboard), run `.wayclef settings`, or use the Wayclef launcher in Meteor. Each opens the planner on **Map**. Change the planner key in **Settings**. Press **J** in-game to route to the crosshair. Change that shortcut in Meteor's Wayclef module settings.
 
 ## Planner
